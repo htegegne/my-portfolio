@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
+  background: url('images/port_back.png')  ;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+/* Media query for smaller screen sizes */
+@media (max-width: 768px) {
+  body {
+      background-size: contain; /* Change background size to contain for smaller screens */
+      background-position: center; /* Center the background image */
   }
 }
-
-.App-header {
-  background-color: #282c34;
+.app-container {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+}
+.main-content {
+  flex: 1; /* This ensures that the main content takes up remaining vertical space */
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#root {
+  min-height: 100vh;
+  max-width: 1200px; /* Set a max-width for better readability */
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 80px;
+  padding-bottom: 80px; /* Adjust based on footnote height */
+
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  margin: 5px 0; /* Add margin for spacing between sections */
+  text-align: justify;
+  padding: 50px;
+  background-color: cadetblue; /* White background for sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: #333; /* Dark text color */
+
+}
+.download-section {
+ 
+  position: relative;
+  z-index: 3;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+ 
+
+  
+
+.button-container {
+  display: flex;
+  
+}
+.button {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: gold; /* Add  color */
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  padding-top: 1px;
+  
+ 
+}
+  .button + .button {
+      margin-left: 5px;
+  }
+
+  .button:hover {
+      background-color: #032d4a; /* Add color on hover */
+  }
+
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-content {
+  text-align: justify; /* Justify content within this container */
+  background:none;
+}
+.video-wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.video-text {
+  max-width: 600px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Add media query for responsive navbar collapse */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically on mobile */
   }
 }
