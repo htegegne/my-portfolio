@@ -5,10 +5,10 @@ const Projects = () => {
         <div className="section">
             <h2>Projects</h2>
             <div className="project">
-                <h3>Project 1</h3>
-                <p>Description of Project 1</p>
-                <p>Technologies used: Technology 1, Technology 2</p>
-                <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                <h3>Portfolio</h3>
+                <p>Personal portfolio</p>
+                <p>Technologies used: JavaScript(React), HTML, CSS, Bootstrap </p>
+                <a href="https://github.com/htegegne/portfolio.github.io" target="_blank" rel="noopener noreferrer">PortfolioGitHub Repository</a>
                 {/* Add more projects as needed */}
             </div>
         </div>
