@@ -7,7 +7,7 @@ const About = () => {
             
            
             <h1>About Me</h1>
-            <img src={profilePic} alt="Habtamu's picture" height="200" width="200" />
+            <img src={profilePic} alt="Habtamu Tegegne" height="200" width="200" />
             
            
             <p>
