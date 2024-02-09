@@ -10,7 +10,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav} from 'react-bootstrap';
+// import { Nav} from 'react-bootstrap';
 import { Navbar} from 'react-bootstrap';
 
 function App() {

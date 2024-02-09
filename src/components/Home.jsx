@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-//import Contacts from './Contacts';
-import githubLogo from '../images/github-mark.png';
-import linkedinLogo from '../images/linkedin-logo.png';
-import gmailLogo from '../images/gmail-logo.png';
+
 import homeVideo from '../images/ht-logo-video.mp4';
 
 const Home = () => {
