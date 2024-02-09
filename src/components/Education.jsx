@@ -85,7 +85,7 @@ const EducationItem = ({ degree, concentration, university, location, graduation
                                         <li key={pointIndex}>{point}</li>
                                     ))}
                                     <li>Technologies used: {project.technologies.join(", ")}</li>
-                                    {project.repoLink && <li>Project repository: <a href={project.repoLink} target="_blank" rel="noopener noreferrer">{project.repoLink}</a></li>}
+                                    {project.repoLink && <li> <a href={project.repoLink} target="_blank" rel="noopener noreferrer">Project Repository</a></li>}
                                 </ul>
                             </div>
                         ))}
