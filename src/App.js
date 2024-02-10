@@ -12,7 +12,7 @@ import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Nav} from 'react-bootstrap';
 import { Navbar} from 'react-bootstrap';
-import pageBackground from './images/ht-home-back.png';
+
 
 function App() {
   return (
