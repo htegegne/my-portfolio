@@ -1,30 +1,33 @@
 
 body {
-  background: url('images/port_back.png')  ;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  /* background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    align-items: center;
+    display: flex;
+     margin: 0;
+     font-family: 'Montserrat', sans-serif;
+     background-image: url('./images/ht-home-back.png') ; /* Set the background image */
+     background-size: cover; /* Cover the entire container with the background image */
+     /*background-position: center; /* Center the background image */
+     /*background-repeat: no-repeat; */
   
 
 }
-/* Media query for smaller screen sizes */
-@media (max-width: 768px) {
-  body {
-      background-size: contain; /* Change background size to contain for smaller screens */
-      background-position: center; /* Center the background image */
-  }
-}
+
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 .main-content {
-  flex: 1; /* This ensures that the main content takes up remaining vertical space */
-  padding-top: 40px;
-  padding-bottom: 20px;
+  flex-grow: 1; /* This ensures that the main content takes up remaining vertical space */
+  padding-top: 20px;
+  padding-bottom: 10px;
+
 }
 #root {
   min-height: 100vh;
@@ -32,14 +35,14 @@ body {
   margin: 0 auto;
   padding: 1rem;
   padding-top: 80px;
-  padding-bottom: 80px; /* Adjust based on footnote height */
+  padding-bottom: 10px; /* Adjust based on footnote height */
 
 }
 
 .section {
   width: 100%;
   height: auto;
-  margin: 5px 0; /* Add margin for spacing between sections */
+  margin: 1px 0; /* Add margin for spacing between sections */
   text-align: justify;
   padding: 50px;
   background-color: cadetblue; /* White background for sections */
@@ -52,24 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #333; /* Dark text color */
 
 }
-.download-section {
- 
-  position: relative;
-  z-index: 3;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
- 
 
-  
-
-.button-container {
-  display: flex;
-  
-}
 .button {
   text-decoration: none;
   color: white;
@@ -88,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .button:hover {
-      background-color: #032d4a; /* Add color on hover */
+      background-color: #45a5e9; /* Add color on hover */
   }
 
 
@@ -98,33 +84,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
 }
-.main-content {
-  text-align: justify; /* Justify content within this container */
-  background:none;
-}
-.video-wrapper {
-  position: relative;
-  height: 100vh;
-}
 
-.video-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
 
-.video-text {
-  max-width: 600px;
-}
 /* Add media query for responsive navbar collapse */
 @media (max-width: 768px) {
+  body {
+    background-size: contain; }
   .navbar {
     flex-direction: column; /* Stack items vertically on mobile */
   }

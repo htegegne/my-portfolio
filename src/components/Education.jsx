@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/education.css';
 const Education = () => {
     const relevantCourses = [
         'Software Engineering I & II',

@@ -1,0 +1,42 @@
+.education-item {
+    margin-bottom: 20px;
+  }
+  
+  .education-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .education-item p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .education-item h4 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+  }
+  
+  .education-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .education-item ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .education-item h5 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .education-item p {
+    margin-bottom: 10px;
+  }
+  
+  .education-item a {
+    color: #007bff; /* Change link color as needed */
+  }
+  

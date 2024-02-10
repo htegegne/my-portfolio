@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 
-import homeVideo from '../images/ht-logo-video.mp4';
+
+import '../styles/home.css';
 
 const Home = () => {
     const handleDownload = () => {
@@ -12,37 +13,19 @@ const Home = () => {
     };
 
     return (
-        <div className="section">
+        <div className="section home-section" >
             <div className="content">
-                <div className="main-content">
-                    <div className="video-wrapper">
-                        <ReactPlayer
-                            url={homeVideo}
-                            autoPlay={true}
-                            controls={true}
-                            loop={true}
-                            muted={false}
-                            width="640"
-                            height="360"
-                        />
-                        <div className="video-overlay">
-                            <div className="video-text">
-                                <h1>Welcome to My Portfolio</h1>
-                                <h1>I am Habtamu Tegegne</h1>
-                                <h3>Software Engineer, Full-Stack Developer</h3>
-                                <h5>
-                                    Highly motivated Computing graduate with a passion for full-stack development and database wizardry.
-                                    Proficient in OOP, agile methodologies, and always eager to learn and improve. Let's build something incredible!
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h1 className="welcome-text">Welcome to My Portfolio</h1>
+                <h1 className="name">I am Habtamu Tegegne</h1>
+                <h3 className="role">Software Engineer, Full-Stack Developer</h3>
+                <p className="description">
+                    Highly motivated Computing graduate with a passion for full-stack development and database wizardry.
+                    Proficient in OOP, agile methodologies, and always eager to learn and improve. Let's build something incredible!
+                </p>
                 <div className="download-section">
                     <button className="button download-btn" onClick={handleDownload}>
                         <h2>Download Resume</h2>
                     </button>
-                   
                 </div>
             </div>
         </div>

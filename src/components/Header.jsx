@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../styles/header.css';
 import { Link, Outlet } from 'react-router-dom';
 import mainLogo from '../images/logo-ht1.png';
+import homeBackground from '../images/port_back.png';
 
 const Header = ({ closeMenu }) => {
     const [showMenu, setShowMenu] = useState(false);
@@ -15,8 +16,8 @@ const Header = ({ closeMenu }) => {
     };
 
     return (
-        <header className="navbar navbar-light bg-light fixed-top">
-            <div className="container-fluid">
+        <header className="navbar navbar-light bg-light fixed-top" style={{ backgroundImage: `url(${homeBackground})` }}>
+            <div className="container-fluid" >
                 <Link to="/" className="navbar-brand">
                     <img src={mainLogo} alt="Habtamu Tegegne Logo" className="logo" />
                 </Link>
