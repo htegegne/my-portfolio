@@ -7,15 +7,15 @@ const Projects = () => {
             name:  'Portfolio Website',
             description:  'Developed a personal portfolio website to showcase my skills, projects, and professional experience.',
             technologies: ['React', 'HTML', 'CSS', 'Bootstrap'],
-            repoLink: 'https://github.com/htegegne/portfolo',
+            repoLink: 'https://github.com/htegegne/my-portfolio',
             liveDemoLink:  'https://htegegne.github.io/my-portfolio/'
         }
     ];
 
     return (
         <div className="section">
-            <h2>Projects</h2>
             <br/>
+            <h2>Projects</h2>
             {projects.map((project, index) => (
                 <div key={index}>
                      <h3>{project.name}</h3>
