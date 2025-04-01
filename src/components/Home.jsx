@@ -19,8 +19,9 @@ const Home = () => {
                 <h1 className="name">I am Habtamu Tegegne</h1>
                 <h3 className="role">Software Engineer, Full-Stack Developer</h3>
                 <p className="description">
-                    Highly motivated Computing graduate with a passion for full-stack development and database wizardry.
-                    Proficient in OOP, agile methodologies, and always eager to learn and improve. Let's build something incredible!
+                   Passionate and results-driven DevOps Engineer and Software Developer with expertise in full-stack development, cloud technologies, and CI/CD automation.
+                    Skilled in designing scalable solutions with Java, C#, JavaScript, AWS, and Kubernetes. Committed to continuous learning and innovation. 
+                    Let’s build something incredible!
                 </p>
                 <div className="download-section">
                     <button className="button download-btn" onClick={handleDownload}>
