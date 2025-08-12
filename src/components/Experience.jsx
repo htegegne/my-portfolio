@@ -25,7 +25,7 @@ const Experience = () => {
             <ExperienceItem
                 title="Associate Software Engineer, Infosys Limited"
                 startDate="Sep 2021"
-                endDate="Feb 2023"
+                endDate="Nov 2023"
                 bullets={[
                     "Designed and developed RESTful APIs using Spring Boot for backend services, integrating seamlessly with front-end frameworks and third-party systems. Implemented CRUD operations, JWT/OAuth-based security, and optimized performance.",
                     "Built dynamic and responsive single-page applications (SPAs) using Angular, implementing state management (NgRx), lazy loading, and modular components for an improved user experience and faster loading times.",
