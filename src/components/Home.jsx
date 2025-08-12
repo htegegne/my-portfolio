@@ -19,13 +19,9 @@ const Home = () => {
                 <h1 className="name">I am Habtamu Tegegne</h1>
                 <h3 className="role">Software Engineer | Full-Stack Developer | Cloud, DevOps & Database Specialist</h3>
                 <p className="description">
-                Highly motivated Software Engineer with a passion for both backend and frontend development, 
-                cloud infrastructure, and DevOps automation. Experienced in building scalable 
-                applications with modern frameworks and managing both relational and NoSQL databases. 
-                Agile team player who’s always eager to learn and improve. 
-                Let’s build something incredible!
-
-
+                   Passionate and results-driven DevOps Engineer and Software Developer with expertise in full-stack development, cloud technologies, and CI/CD automation.
+                    Skilled in designing scalable solutions with Java, C#, JavaScript, AWS, and Kubernetes. Committed to continuous learning and innovation. 
+                    Let's build something incredible!
                 </p>
                 <div className="download-section">
                     <button className="button download-btn" onClick={handleDownload}>
