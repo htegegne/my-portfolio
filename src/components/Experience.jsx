@@ -52,7 +52,7 @@ const Experience = () => {
                 <li><strong>API & Web Services:</strong> RESTful APIs, Microservices Architecture, API Testing (Postman, Swagger)</li>
                 <li><strong>Markup & Data Formats:</strong> HTML5, CSS, JSON, XML</li>
                 <li><strong>Agile Methodologies:</strong> Scrum, Kanban, User Story Creation</li>
-                <li><strong>Monitoring & Alerting:</strong> Prometheus, Grafana, CloudWatch for proactive system monitoring</li>
+                <li><strong>Monitoring & Alerting:</strong> Prometheus, Grafana, CloudTrail, CloudWatch for proactive system monitoring</li>
             </ul>
             <h3>Certifications</h3>
             <ul>
