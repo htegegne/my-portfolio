@@ -17,6 +17,7 @@ const Experience = () => {
                     "Implemented monitoring and alerting solutions using AWS CloudWatch, CloudTrail, Prometheus, Grafana, and ELK Stack for proactive issue resolution and real-time performance monitoring.",
                     "Enhanced security by implementing IAM roles, secure VPC configurations, encryption, and conducting regular security audits of AWS infrastructure.",
                     "Developed Python and Bash automation scripts to streamline cloud operations and optimize infrastructure management.",
+                    "Built RESTful APIs using Java and Spring Boot to support microservices running on AWS infrastructure.",
                     "Collaborated with development and security teams to optimize application performance, scalability, and cost-efficiency, ensuring adherence to best DevOps practices.",
                     "Designed and implemented high availability (HA) and disaster recovery (DR) strategies, leveraging AWS multi-region architectures, automated backups, and failover mechanisms.",
                     "Troubleshot production issues, conducted root cause analysis, and implemented solutions to ensure system stability and minimize downtime."
