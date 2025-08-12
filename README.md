@@ -16,7 +16,7 @@ Learn about my academic background, including my degrees in Computing and Enviro
 
 Experience and Skills
 
-Discover my professional experience and the skills I've acquired throughout my career. From software engineering to various other domains, I have a diverse skill set that allows me to tackle challenges effectively .
+Discover my professional experience and the skills I've acquired throughout my career. From software engineering to various other domains, I have a diverse skill set that allows me to tackle challenges effectively.
 
 Contact Me
 
