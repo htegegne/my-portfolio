@@ -1,0 +1,54 @@
+/* Styling for the header container */
+.container-fluid {
+    background-color: rosybrown; /* Set the background color */
+    
+   /* color: #fff; /* Set the text color */
+  /*  padding: 0.5rem 1rem;
+    background-size: contain; /* Ensure the background covers the container */
+   /* background-position: center; /* Center the background */
+  /*  background-repeat: no-repeat; /* Prevent background from repeating */
+   /* height: 60px; /* Adjust the height */
+  }
+  
+  /* Styling for the navbar */
+  .navbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    align-items: center; /* Center items along the cross axis */
+    padding: 0.5rem 1.5rem; /* Add padding around the navbar */
+    position: relative; /* Fix the header to the top of the viewport */
+    width: 100%; /* Ensure the header spans the full width */
+    z-index: 1000; /* Set the z-index to ensure the header is above other content */
+    transition: top 0.3s ease; /* Add a smooth transition for the 'top' property */
+    top: 0; /* Ensure the header starts at the top of the viewport */
+  }
+  
+ 
+  /* Styling for the navigation items */
+  .nav-item {
+    margin-right: 20px; /* Add margin to separate navigation items */
+    
+  }
+  
+  /* Styling for the navigation links */
+  .nav-link {
+    color: white !important; /* Set the text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 20px; /* Set the font size */
+    transition: color 0.3s ease  !important; /* Add a smooth color transition */
+  }
+  
+  /* Styling for navigation links on hover */
+  .nav-link:hover {
+    font-size: 20px;
+    color: #0d075c; /* Change hover color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Styling for the logo */
+  .logo {
+     width: 60px; /*Adjust width as needed */
+    height: auto;
+     /* Vertically center the logo */
+  }

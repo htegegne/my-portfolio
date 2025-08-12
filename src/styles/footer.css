@@ -1,0 +1,54 @@
+/* Styling for the footer container */
+.footer {
+    background-color: rosybrown; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 1rem;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    position: relative; /* Fix the footer to the bottom of the viewport */
+    width: auto; /* Ensure the footer spans the full width */
+    bottom: 0; /* Ensure the footer stays at the bottom */
+    z-index: 1000; /* Set the z-index to ensure the footer is above other content */
+    /* Consider using background-size: contain; here and adjusting as needed */
+    /* background-position: center; /* Center the background if used */
+    
+}
+  
+  /* Styling for the container fluid */
+  .footer-container-fluid {
+    max-width: 1200px; /* Set a max-width for readability */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .button-container {
+    display: flex;
+    
+   
+  }
+  .button-container button {
+    margin: 0 10px; /* Add margin to buttons for spacing */
+   
+}
+.button-container img {
+  max-width: 50px; /* Set max-width for the logos to prevent overflow */
+  max-height: 50px; /* Set max-height to maintain aspect ratio */
+}
+
+
+.button + .button {
+  margin-left: 5px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      padding: 1rem 0; /* Adjust padding for better spacing */
+      align-items: center; /* Center items horizontally */
+  }
+  
+  .button-container {
+      margin-top: 0.5rem; /* Add margin to separate button row */
+  }
+}
