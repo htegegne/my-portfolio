@@ -34,8 +34,11 @@ const Home = () => {
                                 <h1>I am Habtamu Tegegne</h1>
                                 <h3>Software Engineer, Full-Stack Developer</h3>
                                 <h5>
-                                    Highly motivated Computing graduate with a passion for full-stack development and database wizardry.
-                                    Proficient in OOP, agile methodologies, and always eager to learn and improve. Let's build something incredible!
+                                    Highly motivated Software Engineer with a passion for both backend and frontend development, 
+                cloud infrastructure, and DevOps automation. Experienced in building scalable 
+                applications with modern frameworks and managing both relational and NoSQL databases. 
+                Agile team player who’s always eager to learn and improve. 
+                Let’s build something incredible!
                                 </h5>
                             </div>
                         </div>
